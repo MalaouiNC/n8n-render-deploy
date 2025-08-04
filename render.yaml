@@ -10,7 +10,7 @@ services:
       - key: N8N_BASIC_AUTH_USER
         value: Malaoui
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: @l!ceSaGlisse
+        value: "@l!ceSaGlisse"
       - key: GENERIC_TIMEZONE
         value: Europe/Paris
       - key: WEBHOOK_TUNNEL_URL
