@@ -4,6 +4,8 @@ services:
     env: docker
     plan: free
     image: n8nio/n8n
+    ports:
+      - 5678
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
