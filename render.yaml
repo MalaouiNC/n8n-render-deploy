@@ -18,3 +18,7 @@ services:
         value: "Europe/Paris"
       - key: WEBHOOK_TUNNEL_URL
         value: "https://n8n-assistant.onrender.com"
+EOFgit add render.yaml
+git commit -m "✅ Fix render.yaml: use env docker"
+git push origin main
+
