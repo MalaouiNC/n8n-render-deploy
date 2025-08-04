@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: n8n-assistant
+    env: docker
+    repo: https://github.com/MalaouiNC/n8n-render-deploy
+    plan: free
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: true
+      - key: N8N_BASIC_AUTH_USER
+        value: Malaoui
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: @l!ceSaGlisse
+      - key: GENERIC_TIMEZONE
+        value: Europe/Paris
+      - key: WEBHOOK_TUNNEL_URL
+        value: https://n8n-assistant.onrender.com
