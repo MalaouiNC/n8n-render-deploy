@@ -1,9 +1,10 @@
 services:
   - type: web
     name: n8n-assistant
-    env: image
-    plan: free
+    env: docker
     image: n8nio/n8n
+    dockerfilePath: ""
+    plan: free
     ports:
       - 5678
     envVars:
